@@ -43,8 +43,8 @@ def apply_search_conditions(page: Page) -> None:
     # 一般建設業
     safe_select_label(page, "#gyosyuType", "一般建設業")
 
-    # 10件表示
-    safe_select_value(page, 'select[name="dispCount"]', "10")
+    # 50件表示
+    safe_select_value(page, 'select[name="dispCount"]', "50")
 
     # =========================
     # 検索実行（ここが安定ポイント）
